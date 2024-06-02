@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ownPort</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><i class="ri-home-4-fill"></i><span>@HRC</span></a>
+        <ul class="navbar">
+            <li><a href="/home" class="active">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">contact</a></li>
+            <li><a href="/skill">skill</a></li>
+            
+        </ul>
+        <div class="main">
+            <a href="#" class="user"><i class="ri-file-user-fill"></i>Sign In</a>
+            <a href="#">Register</a>
+            <div class="bx bx-menu" id="menu-icon"><i class="ri-menu-line"></i></div>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2>Hello, it's Me</h2>
+            <h1>Harsh Raj</h1>
+            <h3>And I'm a Developer</h3>
+        </section>
+         </div>
+
+            <div class="social-media">
+
+                <a href="https:www.facebook.com/chikku.raj.18488" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.twitter.com/hrc0111" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.instagram.com/harsh_raj.hr" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/harsh-raj-6450a8248" class="fa fa-linkedin" target="_blank"></a>
+            </div>
+            <div class="info">
+                <a href="/static/HARSH_RAJ(RESUME).pdf" class="btn" target="_blank">Download CV</a>
+                <a href="https://api.whatsapp.com/send?phone=9576780330" class="btn" target="_blank">Send Message</a>
+            </div>
+
+        
+    
+    <!-- <div class="home-image">
+        <img src="/static/img9.jpg" alt="Oops"> -->
+    </div>
+    <div class="imgchat">
+        <h2>Help....</h2>
+    <a href="/chat"><img src="/static/botimg.png" alt="chatBot" style="width:42px;height:42px;"></a>
+</div>
+    <footer>copyright &copy www.hrcv.com | All rights reserved!!</footer>
+
+
+    <script>
+        let menu = document.querySelector('#menu-icon')
+        let navbar = document.querySelector('.navbar')
+        menu.onclick = () => {
+            menu.classList.toggle('bx-x')
+            navbar.classList.toggle('open')
+        }
+    </script>
+
+</body>
+
+</html>
